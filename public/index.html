@@ -116,7 +116,7 @@
 <body class="bg-gray-100">
     <!-- Navigation Toggle Button and Name -->
     <div class=" flex items-center fixed">
-        <div class="absolute top-4 left-4 text-red-900 text-xl font-semibold z-40">
+        <div class="absolute top-4 left-4 text-red-500 text-xl font-semibold z-40">
             Nissy
         </div>
         <button id="menu-toggle" class="flex items-center justify-center w-12 h-12 bg-transparent text-blue-500 rounded-full  top-4 right-4 z-50 fixed">
@@ -132,6 +132,7 @@
                 <li><a href="#home" class="hover:bg-blue-100  rounded block">Home</a></li>
                 <li><a href="#about" class="hover:bg-blue-100  rounded block">About</a></li>
                 <li><a href="#projects" class="hover:bg-blue-100  rounded block">Projects</a></li>
+                <li><a href="#certificates" class="hover:bg-blue-100  rounded block">Certificates</a></li>
                 <li><a href="#contact" class="hover:bg-blue-100  rounded block">Contact</a></li>
             </ul>
         </div>
@@ -264,7 +265,7 @@
                         </svg>
                         <div class="absolute inset-0 flex items-center justify-center">
                             <svg class="w-8 h-8 md:w-12 md:h-12">
-                                <text class="circle-text" x="50%" y="50%" id="label-rdbms">90%</text>
+                                <text class="circle-text" x="50%" y="50%" id="label-rdbms">80%</text>
                             </svg>
                         </div>
                     </div>
@@ -274,34 +275,115 @@
           </div>
       </div>
   </section>
-  <section id="projects" class="h-screen bg-gray-400 px-4 py-20">
+  <section  id="projects" class="min-h-screen bg-gray-400 px-4 py-20 mb-20">
     <div class="container mx-auto flex flex-col items-center">
         <h2 class="text-4xl font-extrabold text-gray-700 text-center mb-12 fade-in">My Projects</h2>
-        <div class="flex justify-center">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-screen-md">
-                <div class="card p-6 rounded-lg">
-                    <h3 class="text-2xl font-semibold text-red-800 mb-4">Static Website</h3>
-                    <p class="text-yellow-700 mb-4 font-serif">A PhonePe clone built using HTML and CSS. The site mimics the look and feel of the PhonePe application with a static layout, including a carousel and interactive elements styled to resemble the original app.</p>
+        <div class="flex overflow-x-auto w-full max-w-[100vw]">
+            <div class="flex space-x-8">
+                <!-- All Cards in a Single Line -->
+                <div class="card p-6 rounded-lg flex-shrink-0 w-80">
+                    <h3 class="text-2xl font-semibold text-red-800 mb-4">PhonePe Clone</h3>
+                    <p class="text-yellow-700 mb-2 font-serif">A static website clone using HTML and CSS.</p>
+                    <p class="text-gray-800 mb-4">This project replicates the PhonePe interface, focusing on layout and styling.</p>
+                    <p class="text-gray-600 italic">Technologies: HTML, CSS</p>
+                    
                     <div class="flex justify-center rounded-full">
-                        <a href="https://nissy10phonepe.ccbp.tech/" target="_blank" class="btn-primary rounded-xl px-4 py-2 text-center">View Project &rarr;</a>
+                        <a href="http://nissy10phonepe.ccbp.tech" target="_blank" class="btn-primary rounded-xl px-4 py-2 text-center">View Project &rarr;</a>
                     </div>
                 </div>
-                <div class="card p-6 rounded-lg">
-                    <h3 class="text-2xl font-semibold text-red-600 mb-4">Responsive Website</h3>
-                    <p class="text-yellow-700 mb-4 font-serif">A responsive food-themed website developed with HTML, CSS, and Bootstrap. It features a flexible layout that adjusts seamlessly across different devices, providing an optimal user experience on both mobile and desktop screens.</p>
+                <div class="card p-6 rounded-lg flex-shrink-0 w-80">
+                    <h3 class="text-2xl font-semibold text-red-800 mb-4">Netflix Clone</h3>
+                    <p class="text-yellow-700 mb-2 font-serif">Another static clone using HTML and CSS.</p>
+                    <p class="text-gray-800 mb-4">This project mimics the Netflix homepage, highlighting movie posters and user interface.</p>
+                    <p class="text-gray-600 italic">Technologies: HTML, CSS</p>
+                    
                     <div class="flex justify-center rounded-full">
-                        <a href="https://foodmunchn19.ccbp.tech/" target="_blank" class="btn-primary rounded-xl px-4 py-2 text-center">View Project &rarr;</a>
+                        <a href="https://119netflixnissy.ccbp.tech" target="_blank" class="btn-primary rounded-xl px-4 py-2 text-center">View Project &rarr;</a>
                     </div>
                 </div>
+                <div class="card p-6 rounded-lg flex-shrink-0 w-80">
+                    <h3 class="text-2xl font-semibold text-red-800 mb-4">Food Munch</h3>
+                    <p class="text-yellow-700 mb-2 font-serif">Responsive design using Bootstrap, HTML, and CSS.</p>
+                    <p class="text-gray-800 mb-4">A dynamic food delivery site showcasing restaurant options and menus.</p>
+                    <p class="text-gray-600 italic">Technologies: Bootstrap, HTML, CSS</p>
+                    
+                    <div class="flex justify-center rounded-full">
+                        <a href="https://foodmunchn19.ccbp.tech" target="_blank" class="btn-primary rounded-xl px-4 py-2 text-center">View Project &rarr;</a>
+                    </div>
+                </div>
+            
+                <div class="card p-6 rounded-lg flex-shrink-0 w-80">
+                    <h3 class="text-2xl font-semibold text-red-800 mb-4">Rock, Paper, Scissors Game</h3>
+                    <p class="text-yellow-700 mb-2 font-serif">A fun JavaScript game.</p>
+                    <p class="text-gray-800 mb-4">An interactive game where users can play against the computer.</p>
+                    <p class="text-gray-600 italic">Technologies: JavaScript, HTML, CSS</p>
+                    
+                    <div class="flex justify-center rounded-full">
+                        <a href="https://rps-game-nu-bay.vercel.app" target="_blank" class="btn-primary rounded-xl px-4 py-2 text-center">View Project &rarr;</a>
+                    </div>
+                </div>
+                <div class="card p-6 rounded-lg flex-shrink-0 w-80">
+                    <h3 class="text-2xl font-semibold text-red-800 mb-4">Loom Project</h3>
+                    <p class="text-yellow-700 mb-2 font-serif">A JavaScript-based application.</p>
+                    <p class="text-gray-800 mb-4">A tool for screen recording with a user-friendly interface and controls.</p>
+                    <p class="text-gray-600 italic">Technologies: JavaScript, HTML, CSS</p>
+                    
+                    <div class="flex justify-center rounded-full">
+                        <a href="https://my-loom.vercel.app" target="_blank" class="btn-primary rounded-xl px-4 py-2 text-center">View Project &rarr;</a>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
+</section> 
+<section id = "certificates" class="bg-gray-500 text-gray-800">
+        <div class="container mx-auto p-6">
+            <h1 class="text-3xl font-bold mb-6 text-white">My Certifications</h1>
+    
+            <div class="bg-white shadow-md rounded-lg p-4 mb-4">
+                <h2 class="text-xl font-semibold">Static Website</h2>
+                <a class="text-blue-500 hover:underline" href="https://certificates.ccbp.in/academy/static-website?id=ZZXMNYELCZ">View Certificate</a>
+            </div>
+    
+            <div class="bg-white shadow-md rounded-lg p-4 mb-4">
+                <h2 class="text-xl font-semibold">Build Your Own Responsive Website</h2>
+                <a class="text-blue-500 hover:underline" href="https://certificates.ccbp.in/academy/build-your-own-responsive-website?id=WNZAIJZLFO">View Certificate</a>
+            </div>
+    
+            <div class="bg-white shadow-md rounded-lg p-4 mb-4">
+                <h2 class="text-xl font-semibold">Dynamic Web Application</h2>
+                <a class="text-blue-500 hover:underline" href="https://certificates.ccbp.in/academy/dynamic-web-application?id=AKRVDEYMTS">View Certificate</a>
+            </div>
+    
+            <div class="bg-white shadow-md rounded-lg p-4 mb-4">
+                <h2 class="text-xl font-semibold">Developer Foundations</h2>
+                <a class="text-blue-500 hover:underline" href="https://certificates.ccbp.in/academy/developer-foundations?id=EWEAWXRSSS">View Certificate</a>
+            </div>
+    
+            <div class="bg-white shadow-md rounded-lg p-4 mb-4">
+                <h2 class="text-xl font-semibold">Introduction to Databases</h2>
+                <a class="text-blue-500 hover:underline" href="https://certificates.ccbp.in/academy/introduction-to-databases?id=SUEAOKWNCU">View Certificate</a>
+            </div>
+    
+            <div class="bg-white shadow-md rounded-lg p-4 mb-4">
+                <h2 class="text-xl font-semibold">DA Workshop Completion</h2>
+                <a class="text-blue-500 hover:underline" href="https://cdn1.ccbp.in/misc/da-workshop-completion-certificate/RBQGXQQA8T.png">View Certificate</a>
+            </div>
+    
+            <div class="bg-white shadow-md rounded-lg p-4 mb-4">
+                <h2 class="text-xl font-semibold">Gen AI Completion</h2>
+                <a class="text-blue-500 hover:underline" href="https://cdn1.ccbp.in/misc/gen-ai-completion-cer/F44EQ2O0UN.png">View Certificate</a>
+            </div> 
+            <div class="bg-white shadow-md rounded-lg p-4 mb-4">
+                <h2 class="text-xl font-semibold">Gen AI 2.0 Completion</h2>
+                <a class="text-blue-500 hover:underline" href="https://cdn1.ccbp.in/misc/gen-ai-2-mw/3Q51TLO2N8.png">View Certificate</a>
+            </div>
+        </div>
+    
 </section>
 
-
-
-
-<section  class="h-screen py-16 bg-gray-500 flex items-center">
+<section  class="h-screen py-16 bg-gray-600 flex items-center">
     <!-- Contact Section -->
     <div class="w-full max-w-xs sm:max-w-sm md:max-w-md mx-auto text-center">
         <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-white">Contact Me</h2>
@@ -310,15 +392,15 @@
         </p>
         <form class="text-left">
             <div class="mb-4">
-                <label for="name" class="block text-gray-800">Name:</label>
+                <label for="name" class="block text-white">Name:</label>
                 <input type="text" id="name" class="w-full p-2 border border-gray-300 rounded bg-transparent text-white placeholder-gray-400" required>
             </div>
             <div class="mb-4">
-                <label for="email" class="block text-gray-800">Email:</label>
+                <label for="email" class="block text-white">Email:</label>
                 <input type="email" id="email" class="w-full p-2 border border-gray-300 rounded bg-transparent text-white placeholder-gray-400" required>
             </div>
             <div class="mb-4">
-                <label for="message" class="block text-gray-800">Message:</label>
+                <label for="message" class="block text-white">Message:</label>
                 <textarea id="message" class="w-full p-2 border border-gray-300 rounded bg-transparent text-white placeholder-gray-400" rows="4" required></textarea>
             </div>
             <!-- Button -->
@@ -330,6 +412,11 @@
     </div>
 </section>
 
+
+
+
+
+
        
 
   
@@ -338,7 +425,7 @@
     <div class="container mx-auto">
         <p class="mb-2">Connect with me on:</p>
         <div class="flex justify-center gap-4">
-            <a href="https://github.com/yourusername" target="_blank" class="text-gray-400 hover:text-gray-300"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/jakkulanissy10" target="_blank" class="text-gray-400 hover:text-gray-300"><i class="fab fa-github"></i></a>
             <a href="https://www.linkedin.com/in/jakkula-nissy/" target="_blank" class="text-gray-400 hover:text-gray-300"><i class="fab fa-linkedin"></i></a>
             <a href="https://twitter.com/yourusername" target="_blank" class="text-gray-400 hover:text-gray-300"><i class="fab fa-twitter"></i></a>
         </div>
@@ -414,7 +501,7 @@ document.addEventListener('DOMContentLoaded', () => {
     setCircleProgress('circle-js', 70);
     setCircleProgress('circle-node', 60);
     setCircleProgress('circle-python', 60);
-    setCircleProgress('circle-rdbms', 90);
+    setCircleProgress('circle-rdbms', 80);
 });
 
 
